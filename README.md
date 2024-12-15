@@ -1,10 +1,10 @@
-# Application of Dynamic Graph Convolution Networks Integrating Multi-Domain Features in Multi-Lesion Medical Image Segmentation
+# Dynamic Graph Convolutional Networks with Multi-Domain Feature Fusion for Multiclass Lesion Segmentation in Medical Imaging
 
-Paper Address : https://github.com/YF-W/MDDG-Net
+Paper Address : https://github.com/YF-W/MDDG-Net  
 
-Although convolutional neural networks (CNNs) have made significant strides in medical image segmentation, they still face key challenges. These include difficulty in capturing long-range dependencies, limiting the integration of distant features, and reduced segmentation accuracy. Additionally, CNNs are less robust to noise, leading to decreased precision in noisy medical images. While effective at local feature extraction, CNNs struggle with modeling complex spatial structures, particularly in multi-scale images, where capturing fine spatial dependencies is essential.  
+Although convolutional neural networks (CNNs) have made significant strides in medical image segmentation, they still face key challenges. These include difficulty in capturing long-range dependencies, limiting the integration of distant features, and reduced segmentation accuracy. Additionally, CNNs are less robust to noise, leading to decreased precision in noisy medical images. While effective at local feature extraction, CNNs struggle with modeling complex spatial structures, particularly in multi-scale images, where capturing fine spatial dependencies is essential.    
 
-## Paper : MDDG Net(Application of Dynamic Graph Convolution Networks Integrating Multi-Domain Features in Multi-Lesion Medical Image Segmentation)
+## Paper : MDDG Net(Dynamic Graph Convolutional Networks with Multi-Domain Feature Fusion for Multiclass Lesion Segmentation in Medical Imaging)  
 
 Authors : Yufei Wang, 
 
