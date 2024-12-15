@@ -17,19 +17,22 @@ The MDDG Net introduces a dual-encoding and dual-decoding architecture that inte
 
 ## Our network Baseline
 
-![Baseline](D:\科研\论文\papper\XNet\Hatmap\Baseline.png)  
+![Baseline](https://github.com/user-attachments/assets/6c845821-e13d-4e7a-80b9-6d95a427cd21)
+  
 
-The Baseline model features an innovative "X"-shaped dual-encoder and dual-decoder architecture with separate frequency and spatial domain branches, enhancing multi-task processing and classification performance. The frequency domain branch uses Adaptive Three-Dimensional Frequency Domain Filtering (ATF) to extract refined frequency and directional features, while the spatial domain branch employs hierarchical residual operations (HR) for multi-level spatial feature extraction. ATF integrates frequency-domain filtering, directional enhancement, and dynamic switching between spatial and frequency domains to improve feature selectivity and extraction across domains.  
+The Baseline model features an innovative "X"-shaped dual-encoder and dual-decoder architecture with separate frequency and spatial domain branches, enhancing multi-task processing and classification performance. The frequency domain branch uses Adaptive Three-Dimensional Frequency Domain Filtering (ATF) to extract refined frequency and directional features, while the spatial domain branch employs hierarchical residual operations (HR) for multi-level spatial feature extraction. ATF integrates frequency-domain filtering, directional enhancement, and dynamic switching between spatial and frequency domains to improve feature selectivity and extraction across domains.    
 
 ## Module 1: DC-CRD
 
-![DC-CRD](D:\科研\论文\papper\XNet\Hatmap\DC-CRD.png)
+![DC-CRD](https://github.com/user-attachments/assets/3f9f9c25-e7ed-4636-b2cf-868350af0454)
+  
 
-The DC-CRD Module introduces three key innovations: dynamically constructing and adaptively adjusting inter-channel relationships, capturing subtle differences between channels via graph convolution, and gradually fusing channel relations with feature maps for more flexible feature propagation. These enhancements improve the model’s ability to capture complex channel dependencies and strengthen feature representation.
+The DC-CRD Module introduces three key innovations: dynamically constructing and adaptively adjusting inter-channel relationships, capturing subtle differences between channels via graph convolution, and gradually fusing channel relations with feature maps for more flexible feature propagation. These enhancements improve the model’s ability to capture complex channel dependencies and strengthen feature representation.  
 
 ## Module 2: WP-MFP
 
-![WT-MFP](D:\科研\论文\papper\XNet\Hatmap\WT-MFP.png)
+![WT-MFP](https://github.com/user-attachments/assets/91849337-3aff-423a-bea9-35f690c74b52)
+  
 
 The WT-WFP Module improves downsampling by precisely processing multi-band features from wavelet transforms, introducing a learnable median filtering mechanism, and dynamically adjusting the importance of different frequency bands with adjustable weight parameters.
 
