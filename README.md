@@ -10,15 +10,16 @@ Authors : Yufei Wang,
 
 ## Architecture Overview
 
-![Overview](D:\科研\论文\papper\XNet\Hatmap\Overview.png)  
+![Overview](https://github.com/user-attachments/assets/46f64ce0-7756-4b19-ab31-055f375a6434)
+ 
 
-The MDDG Net introduces a dual-encoding and dual-decoding architecture that integrates both frequency-domain and spatial-domain feature processing. It employs adaptive frequency-domain filtering (ATF) and hierarchical residual operations (HR) for multi-scale, multi-directional feature extraction, enhancing the model’s ability to capture intricate image details. The network incorporates the DC-CRD Module to capture inter-channel correlations and the WT-MFP Module for dynamic downsampling, improving flexibility and generalization. These innovations enable the model to efficiently process complex medical images and resolve fine structural details.
+The MDDG Net introduces a dual-encoding and dual-decoding architecture that integrates both frequency-domain and spatial-domain feature processing. It employs adaptive frequency-domain filtering (ATF) and hierarchical residual operations (HR) for multi-scale, multi-directional feature extraction, enhancing the model’s ability to capture intricate image details. The network incorporates the DC-CRD Module to capture inter-channel correlations and the WT-MFP Module for dynamic downsampling, improving flexibility and generalization. These innovations enable the model to efficiently process complex medical images and resolve fine structural details.  
 
 ## Our network Baseline
 
-![Baseline](D:\科研\论文\papper\XNet\Hatmap\Baseline.png)
+![Baseline](D:\科研\论文\papper\XNet\Hatmap\Baseline.png)  
 
-The Baseline model features an innovative "X"-shaped dual-encoder and dual-decoder architecture with separate frequency and spatial domain branches, enhancing multi-task processing and classification performance. The frequency domain branch uses Adaptive Three-Dimensional Frequency Domain Filtering (ATF) to extract refined frequency and directional features, while the spatial domain branch employs hierarchical residual operations (HR) for multi-level spatial feature extraction. ATF integrates frequency-domain filtering, directional enhancement, and dynamic switching between spatial and frequency domains to improve feature selectivity and extraction across domains.
+The Baseline model features an innovative "X"-shaped dual-encoder and dual-decoder architecture with separate frequency and spatial domain branches, enhancing multi-task processing and classification performance. The frequency domain branch uses Adaptive Three-Dimensional Frequency Domain Filtering (ATF) to extract refined frequency and directional features, while the spatial domain branch employs hierarchical residual operations (HR) for multi-level spatial feature extraction. ATF integrates frequency-domain filtering, directional enhancement, and dynamic switching between spatial and frequency domains to improve feature selectivity and extraction across domains.  
 
 ## Module 1: DC-CRD
 
