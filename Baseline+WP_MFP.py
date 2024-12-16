@@ -583,9 +583,9 @@ class WP_MFP(nn.Module):
         return output
 
 
-class XNet(nn.Module):
+class MDDGNet(nn.Module):
     def __init__(self, in_channels=3, out_channels=1, small_kernel=5, small_padding=2, channels=[32, 64, 128, 256, 512]):
-        super(XNet, self).__init__()
+        super(MDDGNet, self).__init__()
 
 
         resnet = resnet_model.resnet34(pretrained=True)
@@ -703,7 +703,7 @@ class XNet(nn.Module):
 
         temp = torch.cat((x_up_1_4, x_up_2_4), dim=1)
         temp = self.dws(temp)
-        x = x_up_1_4 + x_up_2_4 + temp
+        x = x_up_1_4 + x_up_2_4 + temp  
         x = self.finalConv(x)
 
         return x
@@ -716,6 +716,6 @@ if __name__ == "__main__":
     torch.Tensor.__repr__ = custom_repr
 
     x = torch.randn(4, 3, 224, 224)
-    model = XNet().cpu()
+    model = MDDGNet()
     out = model(x)
     print(out.shape)
