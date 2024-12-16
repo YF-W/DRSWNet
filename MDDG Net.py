@@ -740,7 +740,7 @@ class MDDGNet(nn.Module):
 
         temp = torch.cat((x_up_1_4, x_up_2_4), dim=1)
 
-        temp = self.dws(temp)
+        temp = self.dws(temp)  
         x = x_up_1_4 + x_up_2_4 + temp
 
         x = self.finalConv(x)
