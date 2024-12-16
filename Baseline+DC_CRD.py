@@ -383,9 +383,9 @@ class ResidualBlock(nn.Module):
         return out
 
 
-class XNet(nn.Module):
+class MDDGNet(nn.Module):
     def __init__(self, in_channels=3, out_channels=1, small_kernel=5, small_padding=2, channels=[32, 64, 128, 256, 512]):
-        super(XNet, self).__init__()
+        super(MDDGNet, self).__init__()
 
         resnet = resnet_model.resnet34(pretrained=True)
         self.firstconv = resnet.conv1
@@ -524,7 +524,7 @@ if __name__ == "__main__":
     torch.Tensor.__repr__ = custom_repr
 
     x = torch.randn(4, 3, 224, 224)
-    model = XNet()
+    model = MDDGNet()
     flops, params = profile(model, inputs=(x,))
     print(f'Flops: {flops}, params: {params}')
     out = model(x)
