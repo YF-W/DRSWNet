@@ -6,7 +6,7 @@ Although convolutional neural networks (CNNs) have made significant strides in m
 
 ## Paper : MDDG Net(Dynamic Graph Convolutional Networks with Multi-Domain Feature Fusion for Multiclass Lesion Segmentation in Medical Imaging)  
 
-Authors : Yufei Wang, 
+Authors : Yuefei Wang, Qinyu Zhao, Liangyan Zhao, Binxiong Li, Li Zhang, Tian Qiu, Guanzhen Wang, Wenqi Xu, Ruixin Cao, Yu Zeng 
 
 ## Architecture Overview
 
