@@ -1,8 +1,8 @@
 # Dynamic Graph Convolutional Networks with Multi-Domain Feature Fusion for Multiclass Lesion Segmentation in Medical Imaging
 
-Paper Address : https://github.com/YF-W/MDDG-Net  
+Paper Address : [https://github.com/YF-W/MDDG-Net ](https://github.com/YF-W/MDDG-Net)   
 
-Although convolutional neural networks (CNNs) have made significant strides in medical image segmentation, they still face key challenges. These include difficulty in capturing long-range dependencies, limiting the integration of distant features, and reduced segmentation accuracy. Additionally, CNNs are less robust to noise, leading to decreased precision in noisy medical images. While effective at local feature extraction, CNNs struggle with modeling complex spatial structures, particularly in multi-scale images, where capturing fine spatial dependencies is essential.    
+Although convolutional neural networks (CNNs) have made significant strides in medical image segmentation, they still face key challenges. These include difficulty in capturing long-range dependencies, limiting the integration of distant features, and reduced segmentation accuracy. Additionally, CNNs are less robust to noise, leading to decreased precision in noisy medical images. While effective at local feature extraction, CNNs struggle with modeling complex spatial structures, particularly in multi-scale images, where capturing fine spatial dependencies is essential.      
 
 ## Paper : MDDG Net(Dynamic Graph Convolutional Networks with Multi-Domain Feature Fusion for Multiclass Lesion Segmentation in Medical Imaging)  
 
@@ -34,7 +34,7 @@ The DC-CRD Module introduces three key innovations: dynamically constructing and
 ![WT-MFP](https://github.com/user-attachments/assets/91849337-3aff-423a-bea9-35f690c74b52)
   
 
-The WT-WFP Module improves downsampling by precisely processing multi-band features from wavelet transforms, introducing a learnable median filtering mechanism, and dynamically adjusting the importance of different frequency bands with adjustable weight parameters.
+The WT-WFP Module improves downsampling by precisely processing multi-band features from wavelet transforms, introducing a learnable median filtering mechanism, and dynamically adjusting the importance of different frequency bands with adjustable weight parameters.  
 
 ## Datasets: 
 
