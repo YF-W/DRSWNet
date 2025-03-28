@@ -1,6 +1,6 @@
 import torch
 from torch import einsum, nn
-import torch.nn.functional as F
+import torch.nn.functional as Ft
 from einops import rearrange, repeat
 from einops.layers.torch import Rearrange
 import torchvision.models as resnet_model
@@ -602,9 +602,9 @@ class WT_MFP(nn.Module):
 
         return output
 
-class MDDGNet(nn.Module):
+class DRSWNet(nn.Module):
     def __init__(self, in_channels=3, out_channels=1, small_kernel=5, small_padding=2, channels=[32, 64, 128, 256, 512]):
-        super(MDDGNet, self).__init__()
+        super(DRSWNet, self).__init__()
 
 
         resnet = resnet_model.resnet34(pretrained=True)
@@ -756,6 +756,6 @@ if __name__ == "__main__":
     torch.Tensor.__repr__ = custom_repr
 
     x = torch.randn(4, 3, 224, 224)
-    model = MDDGNet()
+    model = DRSWNet()
     out = model(x)
     print(out.shape)
